@@ -54,7 +54,7 @@ This Python script demonstrates how to create a data pipeline using Kafka for pr
 - If youu have the access to the APIS replace the dataset ("data.csv") with API connection
 
 ## Contact me
-Have any issues while using this? Feel free to contact me
+### Have any issues while using this? Feel free to contact me
 
-LinkedIN  - https://www.linkedin.com/in/sujithvl/
-Instagram - https://www.instagram.com/sujith_vl_/
+- LinkedIN  - https://www.linkedin.com/in/sujithvl/
+- Instagram - https://www.instagram.com/sujith_vl_/
