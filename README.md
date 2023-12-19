@@ -15,7 +15,6 @@ This Python script demonstrates how to create a data pipeline using Kafka for pr
   ```bash
   git clone https://github.com/SujithVeeramani/Stock_Data_Pipeline
   cd Stock_Data_Pipeline
-  
 
 - Configure MongoDB URI in the main_consumer function:
     mongo_uri = "your_mongodb_uri"
@@ -34,16 +33,12 @@ This Python script demonstrates how to create a data pipeline using Kafka for pr
     'bootstrap.servers': 'your_kafka_bootstrap_servers',
     'client.id': 'python-producer'
   }
-  
 - Run the Kafka producer script:
   ```bash
   python producer.py
-  
 - Run the Kafka consumer script:
   ```bash
   python consumer.py
-
-
 - Configuration
 
   mongo_uri: MongoDB connection URI
