@@ -40,11 +40,16 @@ This Python script demonstrates how to create a data pipeline using Kafka for pr
   ```bash
   python consumer.py
 - Configuration
-
+  ```bash
   mongo_uri: MongoDB connection URI
-  
   consumer_conf: Kafka consumer configuration.
 
 
+## How to improve this pipeline?
 
+- The Concept of data pipeline is to store the real time data from the producer and store it in the database or cloud storage
+- The problem that I faced is the pricing of APIs 
+- There is no free APIs which are as much as effective compared to the Paid ones
+- Too overcome this I download a huge dataset and make this data pipeline works with the real time data
+- If youu have the access to the APIS replace the dataset ("data.csv") with API connection
 
