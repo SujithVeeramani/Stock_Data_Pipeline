@@ -1,4 +1,4 @@
-# Kafka Producer and Consumer Stock Data Pipeline
+# Stock Data Pipeline using Kafka Producer and Consumer 
 
 This Python script demonstrates how to create a data pipeline using Kafka for producing random messages from a CSV dataset and consuming those messages to upload to MongoDB. The example uses the `confluent_kafka` library for Kafka integration, `pymongo` for MongoDB integration, and `pandas` for reading CSV data.
 
