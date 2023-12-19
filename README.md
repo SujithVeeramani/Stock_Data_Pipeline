@@ -1,6 +1,6 @@
-# Kafka Consumer with MongoDB Integration
+# Kafka Producer and Consumer Data Pipeline
 
-This Python script demonstrates how to consume messages from a Kafka topic and upload them to MongoDB. The example uses the `confluent_kafka` library for Kafka integration and `pymongo` for MongoDB integration.
+This Python script demonstrates how to create a data pipeline using Kafka for producing random messages from a CSV dataset and consuming those messages to upload to MongoDB. The example uses the `confluent_kafka` library for Kafka integration, `pymongo` for MongoDB integration, and `pandas` for reading CSV data.
 
 ## Prerequisites
 
@@ -14,6 +14,7 @@ This Python script demonstrates how to consume messages from a Kafka topic and u
 - Clone the repository:
   ```bash
   git clone https://github.com/SujithVeeramani/Stock_Data_Pipeline
+  cd Stock_Data_Pipeline
   
 
 - Configure MongoDB URI in the main_consumer function:
@@ -27,7 +28,16 @@ This Python script demonstrates how to consume messages from a Kafka topic and u
     'group.id': 'python-consumer',
     'auto.offset.reset': 'earliest'
     }
-
+- Configure Kafka producer settings in the main_producer function:
+    ```bash
+    producer_conf = {
+    'bootstrap.servers': 'your_kafka_bootstrap_servers',
+    'client.id': 'python-producer'
+  }
+  
+- Run the Kafka producer script:
+  ```bash
+  python producer.py
   
 - Run the Kafka consumer script:
   ```bash
