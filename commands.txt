@@ -1,5 +1,8 @@
-zookeeper-server-start.bat ../../config/zookeeper.properties
-kafka-server-start.bat ../../config/server.properties
-kafka-topics --create --topic stock --bootstrap-server localhost:9092
-kafka-console-producer --topic stock --bootstrap-server localhost:9092
-kafka-console-consumer --topic stock --from-beginning --bootstrap-server localhost:9092
+Commands to start Kafka
+
+  zookeeper-server-start.bat ../../config/zookeeper.properties
+  kafka-server-start.bat ../../config/server.properties
+  kafka-topics --create --topic stock --bootstrap-server localhost:9092
+  kafka-console-producer --topic stock --bootstrap-server localhost:9092
+  kafka-console-consumer --topic stock --from-beginning --bootstrap-server localhost:9092
+
