@@ -34,10 +34,11 @@ This Python script demonstrates how to consume messages from a Kafka topic and u
   python consumer.py
 
 
-Configuration
+- Configuration
 
-mongo_uri: MongoDB connection URI.
-consumer_conf: Kafka consumer configuration.
+  mongo_uri: MongoDB connection URI
+  
+  consumer_conf: Kafka consumer configuration.
 
 
 
