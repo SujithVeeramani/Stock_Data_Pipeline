@@ -53,3 +53,8 @@ This Python script demonstrates how to create a data pipeline using Kafka for pr
 - Too overcome this I download a huge dataset and make this data pipeline works with the real time data
 - If youu have the access to the APIS replace the dataset ("data.csv") with API connection
 
+## Contact me
+Have any issues while using this? Feel free to contact me
+
+LinkedIN  - https://www.linkedin.com/in/sujithvl/
+Instagram - https://www.instagram.com/sujith_vl_/
