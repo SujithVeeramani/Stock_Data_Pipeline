@@ -11,9 +11,34 @@ This Python script demonstrates how to consume messages from a Kafka topic and u
 
   
 ## How to Use
-Clone the repository:
+- Clone the repository:
   ```bash
   git clone https://github.com/SujithVeeramani/Stock_Data_Pipeline
   
+
+- Configure MongoDB URI in the main_consumer function:
+    mongo_uri = "your_mongodb_uri"
+
+
+- Configure Kafka consumer settings in the main_consumer function:
+    ```bash
+    consumer_conf = {
+    'bootstrap.servers': 'your_kafka_bootstrap_servers',
+    'group.id': 'python-consumer',
+    'auto.offset.reset': 'earliest'
+    }
+
+  
+- Run the Kafka consumer script:
+  ```bash
+  python consumer.py
+
+
+Configuration
+
+mongo_uri: MongoDB connection URI.
+consumer_conf: Kafka consumer configuration.
+
+
 
 
