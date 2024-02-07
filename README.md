@@ -56,4 +56,3 @@ This Python script demonstrates how to create a data pipeline using Kafka for pr
 ### Have any issues while using this? Feel free to contact me
 
 - LinkedIN  - https://www.linkedin.com/in/sujithvl/
-- Instagram - https://www.instagram.com/sujith_vl_/
